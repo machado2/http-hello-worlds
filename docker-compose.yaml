@@ -1,0 +1,34 @@
+version: '3'
+services:
+  go:
+    build: ./go
+    ports:
+      - 6080:80
+  rust:
+    build: ./rust
+    ports:
+      - 6081:80
+  cpp:
+    build: ./cpp
+    ports:
+      - 6082:80
+  python:
+    build: ./python
+    ports:
+      - 6083:80
+  csharp:
+    build: ./csharp
+    ports:
+      - 6084:80
+  java:
+    build: ./java
+    ports:
+      - 6085:80
+  node:
+    build: ./nodejs
+    ports:
+      - 6086:80
+  nodets:
+    build: ./node-tsx
+    ports:
+      - 6087:80
