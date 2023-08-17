@@ -32,3 +32,7 @@ services:
     build: ./node-tsx
     ports:
       - 6087:80
+  raku:
+    build: ./raku
+    ports:
+      - 6088:80

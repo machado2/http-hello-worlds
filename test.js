@@ -12,7 +12,7 @@ async function fetchy(url) {
 }
 
 async function main() {
-  const results = Array.from({ length: 8 }, (_, i) => i + 6080).map(
+  const results = Array.from({ length: 9 }, (_, i) => i + 6080).map(
     async (i) => {
       const url = `http://localhost:${i}`;
       try {
